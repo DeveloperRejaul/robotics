@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 esptool = "*"
 mpremote = "*"
+paho-mqtt = "*"
+fastapi = "*"
+uvicorn = "*"
+amqtt = "*"
 
 [dev-packages]
 micropython-esp32-stubs = "*"

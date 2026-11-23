@@ -2,7 +2,7 @@
 .venv/
 venv/
 env/
-
+node_modules/
 # Python
 __pycache__/
 *.py[cod]
@@ -29,3 +29,22 @@ Thumbs.db
 
 # Logs
 *.log
+
+# MQTT server database
+*.db
+
+# Device labels (contain claim codes)
+labels.csv
+
+# MQTT server secret (private)
+.server_secret
+
+# Node / Next.js
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+*.db-shm
+*.db-wal
+devices.json
+labels.json
