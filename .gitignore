@@ -48,3 +48,5 @@ next-env.d.ts
 *.db-wal
 devices.json
 labels.json
+cert.pem
+key.pem
